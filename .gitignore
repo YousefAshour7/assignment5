@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Data (tracked by DVC, not Git)
+data/iris.csv
+
+# Model artifacts
+model_info.txt
+mlruns/
+
+# DVC local config (contains credentials)
+.dvc/config.local
