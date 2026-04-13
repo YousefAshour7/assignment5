@@ -32,4 +32,3 @@ with mlflow.start_run() as run:
 
     with open("model_info.txt", "w") as f:
         f.write(run.info.run_id)
-        
