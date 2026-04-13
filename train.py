@@ -1,7 +1,6 @@
 import mlflow
 import mlflow.sklearn
 import pandas as pd
-import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
@@ -33,3 +32,4 @@ with mlflow.start_run() as run:
 
     with open("model_info.txt", "w") as f:
         f.write(run.info.run_id)
+        
